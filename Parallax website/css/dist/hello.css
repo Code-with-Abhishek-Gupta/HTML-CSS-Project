@@ -1,0 +1,78 @@
+* {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+html body {
+  box-sizing: border-box;
+  font-family: "Lato";
+  height: 100%;
+  width: 100%;
+}
+
+.img1 {
+  align-items: center;
+  background-image: url("/image/laurel-balyeat-ExarETx4xNtyjjkA-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.img2 {
+  align-items: center;
+  background-image: url("/photo-1535463731090-e34f4b5098c5.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.img3 {
+  align-items: center;
+  background-image: url("/image/johann-siemens-EPy0gBJzzZU-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.text {
+  align-items: center;
+  background-color: black;
+  color: #fdfdfd;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  width: 211px;
+}
+
+.container {
+  align-items: center;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  position: absolute;
+  top: 100%;
+  width: 100vw;
+  z-index: 2;
+}
