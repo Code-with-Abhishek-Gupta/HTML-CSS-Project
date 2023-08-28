@@ -20,7 +20,7 @@
   <tr>
     <td>01</td>
     <td>FaceBook Clone</td>
-    <td><a href="./Facebook clone/index.html"> View Demo </a></td>
+    <td><a href="../Facebook clone/index.html"> View Demo </a></td>
   </tr>
   <tr>
     <td>02</td>
