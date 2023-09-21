@@ -229,6 +229,47 @@ html{
 /* client section end */
 
 
+/* contact us start  */
+#Contact{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
+
+i{
+    padding: 12px 12px;
+   
+    font-size: 4rem;
+}
+
+
+#form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#form , input{
+    width: auto;
+    margin: 6px 12px;
+    border: 2px solid brown;
+}
+
+#form>label{
+    font-size: 2rem;
+}
+
+.form_item{
+    display: flex;
+}
+/* contact us end  */
+
 /* responsive start  */
 
 @media screen and (max-width:1192px) {
@@ -301,3 +342,5 @@ html{
 
 
 /* responsive end  */
+
+
