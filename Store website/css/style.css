@@ -4,6 +4,12 @@
 }
 
 html{
+
+    /* scroll-behavior:  ; 
+    help user to smooth scrolling using css you can also do this 
+    using js
+    
+    */
     scroll-behavior: smooth;
     box-sizing: border-box;
     height: 100%; 
@@ -69,7 +75,7 @@ html{
     margin: 15px 65px;
 }
 
-/* Home section  */
+/* Home section start */
 #home {
     display: flex;
     position: static;
@@ -81,6 +87,18 @@ html{
     justify-content: center;
     margin-top: 175px;
     margin-bottom: 315px;
+}
+
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: brown;
+    margin: 12px 12px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 #home p {
@@ -110,8 +128,9 @@ html{
     color: white;
     font-family: 'sans-serif';
 }
+/* Home section end */
 
-/* .Services center  */
+/* .Services  start  */
 .Services-container {
     position: relative;
    
@@ -146,6 +165,9 @@ html{
     height: 100%;
 }
 
+
+/* .Services  end  */
+
 .h-primary {
     font-size: 2em;
     width: 100%;
@@ -168,18 +190,9 @@ html{
     text-align: center;
 }
 
-.btn {
-    padding: 6px 20px;
-    border: 2px solid white;
-    color: white;
-    background-color: brown;
-    margin: 12px 12px;
-    font-size: 1.5rem;
-    border-radius: 12px;
-    cursor: pointer;
-}
 
-/* client section  */
+
+/* client section start */
 #clent-section {
     margin-top: 121px;
 }
@@ -211,11 +224,12 @@ html{
     cursor: pointer;
 }
 
-.h-primary {}
 
-.sec1{
-    
-}
+
+/* client section end */
+
+
+/* responsive start  */
 
 @media screen and (max-width:1192px) {
     #navbar {
@@ -284,3 +298,6 @@ html{
  
     
 }
+
+
+/* responsive end  */
