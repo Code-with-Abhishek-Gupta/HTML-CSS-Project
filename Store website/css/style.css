@@ -1,0 +1,346 @@
+* {
+    margin: 0px 0px;
+    padding: 0 0 ;
+}
+
+html{
+
+    /* scroll-behavior:  ; 
+    help user to smooth scrolling using css you can also do this 
+    using js
+    
+    */
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    height: 100%; 
+    width: 100vw; 
+   
+     background: linear-gradient(55deg,rgb(112, 107, 107) 10%,rgb(112, 107, 107) 20%, gray 85%);
+
+}
+
+/* CSS :vertical  */
+:root {}
+
+/* Navignation bar  */
+#navbar {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content:space-between;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 2rem;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    z-index: -1;
+    opacity: 1.4;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: wheat;
+    text-decoration: none;
+    padding: 3px 15px;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    display: block;
+    background-color: white;
+    border-radius: 15%;
+}
+
+/* Logo and image  */
+#navbar #logo img {
+    width: 75px;
+    border-radius: 50%;
+    background-color: coral;
+    height: fit-content;
+    margin: 15px 65px;
+}
+
+/* Home section start */
+#home {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    padding: 3px 0px;
+    align-items: center;
+    height: 0px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 175px;
+    margin-bottom: 315px;
+}
+
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    color: white;
+    background-color: brown;
+    margin: 12px 12px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#home p {
+    
+    padding: 0 20px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.nI-FZ83Qzltol5WiMHK3EgHaFj%26pid%3DApi&f=1&ipt=fd3fbc792bccac94f26c8dbec0a1db362f8fce18da9c5e99da2114f25ff259ac&ipo=images");
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    background-repeat: no-repeat;
+    opacity: 1;
+    padding: 0 0;
+    background-size: cover;
+    background-position: center;
+}
+
+#home h1 {
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    font-family: 'sans-serif';
+}
+/* Home section end */
+
+/* .Services  start  */
+.Services-container {
+    position: relative;
+   
+    margin-top: 12px;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+#container {
+    display: flex;
+  
+    width: 100%;
+    padding: 12px 0%;
+}
+
+.box {
+    border: 2px solid black;
+    margin: 12px 5%;
+    width: 80%;
+
+    display: flex;
+    background-color: white;
+    position:sticky;
+    flex-direction: column;
+    border-radius: 4%;
+    box-shadow: 2px 2px 2px 2px rgb(216, 212, 212);
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .Services  end  */
+
+.h-primary {
+    font-size: 2em;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    margin: 0 auto;
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.Services-container h2 {
+    text-align: center;
+}
+
+
+
+/* client section start */
+#clent-section {
+    margin-top: 121px;
+}
+
+#clent-section h1 {
+    color: black;
+}
+
+#client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+    background: blanchedalmond;
+}
+
+#client::before {
+    position: absolute;
+    content: "";
+}
+
+.client-item img {
+    width: 65px;
+    background-color: blanchedalmond;
+    padding: 34px;
+}
+
+.client-item img:hover {
+    cursor: pointer;
+}
+
+
+
+/* client section end */
+
+
+/* contact us start  */
+#Contact{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
+
+i{
+    padding: 12px 12px;
+   
+    font-size: 4rem;
+}
+
+
+#form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#form , input{
+    width: auto;
+    margin: 6px 12px;
+    border: 2px solid brown;
+}
+
+#form>label{
+    font-size: 2rem;
+}
+
+.form_item{
+    display: flex;
+}
+/* contact us end  */
+
+/* responsive start  */
+
+@media screen and (max-width:1192px) {
+    #navbar {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
+
+
+
+
+    .h-primary {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    font-family: 'Caprasimo', cursive;
+    margin: 0 auto;
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+   
+}
+
+    
+}
+
+
+@media screen and (max-width:793px) {
+
+
+
+
+    #navbar ul li a {
+    color: wheat;
+    text-decoration: none;
+    padding: 3px 15px;
+    font-size:small;
+}
+
+    #container {
+    display: flex;
+  
+    width: 100%;
+    padding: 12px 0%;
+   flex-direction: column;
+}
+
+.box {
+    
+    margin: 12px 5%;
+    width: 80%;
+
+    display: flex;
+    background-color: white;
+    position:sticky;
+    flex-direction: column;
+    border-radius: 4%;
+     border: linear-gradient(55deg,rgb(112, 107, 107) 10%,rgb(112, 107, 107) 20%, gray 85%);
+    box-shadow: 2px 2px 2px 2px rgb(216, 212, 212);
+}
+ 
+    
+}
+
+
+/* responsive end  */
+
+
