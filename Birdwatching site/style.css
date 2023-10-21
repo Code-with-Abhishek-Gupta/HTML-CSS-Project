@@ -1,0 +1,109 @@
+header {
+    background-color: rgb(51, 208, 51);
+    height: 29vh;
+    width: 100vw;
+    display: block;
+}
+
+#main-text {
+    text-align: center;
+    padding-left: 50vw;
+    background-color: aqua;
+    display: flex;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main-text img {
+    height: 100px;
+    display: block;
+    padding-left: 1em;
+    float: right;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li {
+    padding-right: 5vw;
+    display: inline;
+    font-size: x-large;
+    color: white;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    padding: 4vh;
+    height: 1px;
+    margin-top: 63px;
+    width: 98vw;
+    background-color: rgb(13, 255, 13);
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.41);
+}
+
+.contanar {
+    margin-top: 20px;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(102, 208, 102);
+}
+
+.left-item {
+    width: 75%;
+    background-color: rgb(55, 251, 55);
+    height: 90%;
+    margin: 12px;
+    display: grid;
+}
+
+.welcome {
+    display: inline;
+    font-size: xx-large;
+    text-align: center;
+}
+
+article #first-para {
+    display: flex;
+    margin-top: 80px;
+    font-size: x-large;
+}
+
+article #second {
+    display: flex;
+    margin-top: 12px;
+    font-size: x-large;
+}
+
+.sidebar {
+    background-color: green;
+    width: 25%;
+    height: 90%;
+    float: right;
+    display: b;
+    margin: 12px;
+}
+
+.sidebar #Fav-photo {
+    font-size: xx-large;
+    display: flex;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sidebar img {
+    margin-left: 50px;
+    display: flex;
+    width: 80%;
+    height: 70%;
+}
