@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#page1{
+    width: 100vw;
+    height: 90vh;
+    /* background-color: salmon; */
+    position: relative;
+}
+
+#page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(206, 179, 71);
+}
+
+nav{
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    /* background-color: aqua; */
+
+}
+
+
+
+#nav-part1{
+ align-items: center;
+ justify-content: center;
+  display: flex;
+}
+
+#nav-part1 button{
+    padding: 15px 15px;
+    font-size: 1rem;
+    border-radius: 15px 15px;
+   border: 1px solid black;
+   background-color: white;
+}
+
+#nav-part1 ion-icon{
+    border-radius: 50%;
+    padding: 4px 4px;
+   font-size: 2rem;
+ background-color: #fff;
+ border: 2px solid black;
+   
+}
+
+
+#nav-part3 button{
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 20px 20px;
+   border: 1px solid black;
+   background-color: white;
+   
+}
+
+
+/* #nav-part3 button:nth-child(1){
+ color: black;
+} */
+
+#nav-part3 button:nth-child(2){
+color: white;
+background-color: rgb(255, 106, 0);
+}
+
+
+#page1 h2{
+    font-size: 9vw;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 100%;
+    text-transform: uppercase;
+    left: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   
+}
+
+img{
+    width: 250px;
+    position: absolute;
+    left: 50%;
+   border-radius: 2%;
+    object-position: top;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    object-fit: cover;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-5deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-1deg);
+}
+
+.text{
+    display: flex;
+    font-size: 2rem;
+    width: 100%;
+    height: 6vh;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
