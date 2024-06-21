@@ -20,19 +20,19 @@
   <tr>
     <td>01</td>
     <td>FaceBook Clone</td>
-    <td><a href="https://code-with-abhishek-gupta.github.io/HTML-CSS-Project/Facebook%20clone/index.html"> View Demo </a></td>
+    <td><a href="https://techtutorialsabhishek.github.io/HTML-CSS-Project/Facebook%20clone/index.html"> View Demo </a></td>
   </tr>
   <tr>
     <td>02</td>
     <td>Store Website </td>
-    <td><a href="https://code-with-abhishek-gupta.github.io/HTML-CSS-Project/Store%20website/index.html"> View Demo </a></td>
+    <td><a href="https://techtutorialsabhishek.github.io/HTML-CSS-Project/Store%20website/index.html"> View Demo </a></td>
     
   </tr>
 
    <tr>
     <td>03</td>
     <td>Neon Animation </td>
-      <td><a href="https://code-with-abhishek-gupta.github.io/HTML-CSS-Project/CSS%20animation/Neon%20Button/index.html"> View Demo </a></td>
+      <td><a href="https://techtutorialsabhishek.github.io/HTML-CSS-Project/CSS%20animation/Neon%20Button/index.html"> View Demo </a></td>
     
 
   </tr>
@@ -40,7 +40,7 @@
   <tr>
     <td>04</td>
     <td>Tribute Website</td>
-      <td><a href="https://code-with-abhishek-gupta.github.io/HTML-CSS-Project/Tribute%20Website/index.html"> View Demo </a></td>
+      <td><a href="https://techtutorialsabhishek.github.io/HTML-CSS-Project/Tribute%20Website/index.html"> View Demo </a></td>
 
   </tr>
     <tr>
